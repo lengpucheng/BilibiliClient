@@ -21,15 +21,15 @@
     <licenses>
         <license>
             <name>The MIT License</name>
-            <url>https://github.com/lengpucheng/linling/blob/master/LICENSE</url>
+            <url>https://github.com/lengpucheng/BilibiliClient/blob/master/LICENSE</url>
         </license>
     </licenses>
     <!-- 项目地址 -->
-    <!--    <scm>-->
-    <!--        <url>https://github.com/lengpucheng/linling</url>-->
-    <!--        <connection>https://github.com/lengpucheng/linling.git</connection>-->
-    <!--        <developerConnection>https://github.com/lengpucheng</developerConnection>-->
-    <!--    </scm>-->
+    <scm>
+        <url>https://github.com/lengpucheng/BilibiliClient</url>
+        <connection>https://github.com/lengpucheng/BilibiliClient.git</connection>
+        <developerConnection>https://github.com/lengpucheng</developerConnection>
+    </scm>
 
     <!-- 属性管理 -->
     <properties>
