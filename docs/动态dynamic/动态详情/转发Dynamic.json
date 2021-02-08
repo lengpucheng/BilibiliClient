@@ -1,0 +1,133 @@
+{
+  "code": 0,
+  "msg": "",
+  "message": "",
+  "data": {
+    "card": {
+      "desc": {
+        "uid": 392819792,
+        "type": 1,
+        "rid": 484920426407334139,
+        "acl": 0,
+        "view": 1256,
+        "repost": 0,
+        "comment": 0,
+        "like": 17,
+        "is_liked": 0,
+        "dynamic_id": 484920426409631452,
+        "timestamp": 1611742735,
+        "pre_dy_id": 484828823340195444,
+        "orig_dy_id": 484828823340195444,
+        "orig_type": 2,
+        "user_profile": {
+          "info": {
+            "uid": 392819792,
+            "uname": "武汉纺织大学",
+            "face": "https://i2.hdslb.com/bfs/face/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg"
+          },
+          "card": {
+            "official_verify": {
+              "type": 1,
+              "desc": "武汉纺织大学官方账号"
+            }
+          },
+          "vip": {
+            "vipType": 1,
+            "vipDueDate": 1612281600000,
+            "dueRemark": "",
+            "accessStatus": 0,
+            "vipStatus": 0,
+            "vipStatusWarn": "",
+            "themeType": 0,
+            "label": {
+              "path": ""
+            }
+          },
+          "pendant": {
+            "pid": 0,
+            "name": "",
+            "image": "",
+            "expire": 0,
+            "image_enhance": "",
+            "image_enhance_frame": ""
+          },
+          "rank": "10000",
+          "sign": "嗨!! 我是WTU!!  不一样的WTU！WTU IN BILIBILI!",
+          "level_info": {
+            "current_level": 4,
+            "current_min": 0,
+            "current_exp": 0,
+            "next_exp": "0"
+          }
+        },
+        "uid_type": 1,
+        "stype": 0,
+        "r_type": 1,
+        "inner_id": 0,
+        "status": 1,
+        "dynamic_id_str": "484920426409631452",
+        "pre_dy_id_str": "484828823340195444",
+        "orig_dy_id_str": "484828823340195444",
+        "rid_str": "484920426407334139",
+        "origin": {
+          "uid": 20165629,
+          "type": 2,
+          "rid": 109011544,
+          "acl": 1024,
+          "view": 2006673,
+          "repost": 471,
+          "like": 0,
+          "dynamic_id": 484828823340195444,
+          "timestamp": 1611721407,
+          "pre_dy_id": 0,
+          "orig_dy_id": 0,
+          "uid_type": 1,
+          "stype": 0,
+          "r_type": 1,
+          "inner_id": 0,
+          "status": 1,
+          "dynamic_id_str": "484828823340195444",
+          "pre_dy_id_str": "0",
+          "orig_dy_id_str": "0",
+          "rid_str": "109011544"
+        }
+      },
+      "card": "{ \"user\": { \"uid\": 392819792, \"uname\": \"武汉纺织大学\", \"face\": \"https:\\/\\/i2.hdslb.com\\/bfs\\/face\\/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg\" }, \"item\": { \"rp_id\": 484920426407334139, \"uid\": 392819792, \"content\": \"致敬！\\n谨遵教诲\", \"orig_dy_id\": 484828823340195444, \"pre_dy_id\": 484828823340195444, \"timestamp\": 1611742735, \"reply\": 0, \"orig_type\": 2 }, \"origin\": \"{\\\"item\\\":{\\\"id\\\":109011544,\\\"title\\\":\\\"\\\",\\\"description\\\":\\\"【今天，宋庆龄诞辰128年，缅怀[爱心]】她，一生为“和平、奋斗、救中国”无私奉献。她曾说，“青年是革命的柱石。青年是革命果实的保卫者，是使历史加速向更美好的世界前进的力量。”致敬！ ​​​\\\",\\\"category\\\":\\\"daily\\\",\\\"role\\\":[],\\\"source\\\":[],\\\"pictures\\\":[{\\\"img_src\\\":\\\"https:\\/\\/i0.hdslb.com\\/bfs\\/album\\/a999f3c1ca10aa9d498fee645ec768cd59bc9ac0.jpg\\\",\\\"img_width\\\":1080,\\\"img_height\\\":1620,\\\"img_size\\\":511.5,\\\"img_tags\\\":null}],\\\"pictures_count\\\":1,\\\"upload_time\\\":1611721407,\\\"at_control\\\":\\\"\\\",\\\"reply\\\":889,\\\"settings\\\":{\\\"copy_forbidden\\\":\\\"0\\\"},\\\"is_fav\\\":0},\\\"user\\\":{\\\"uid\\\":20165629,\\\"head_url\\\":\\\"https:\\/\\/i1.hdslb.com\\/bfs\\/face\\/31a4594ba9e39c985e19d37594a794df752bf4b4.jpg\\\",\\\"name\\\":\\\"共青团中央\\\",\\\"vip\\\":{\\\"type\\\":2,\\\"status\\\":1,\\\"due_date\\\":1645977600000,\\\"vip_pay_type\\\":0,\\\"theme_type\\\":0,\\\"label\\\":{\\\"path\\\":\\\"\\\",\\\"text\\\":\\\"年度大会员\\\",\\\"label_theme\\\":\\\"annual_vip\\\"},\\\"avatar_subscript\\\":1,\\\"nickname_color\\\":\\\"#FB7299\\\"}}}\", \"origin_extend_json\": \"{\\\"from\\\":{\\\"emoji_type\\\":1,\\\"from\\\":\\\"\\\",\\\"up_close_comment\\\":0,\\\"verify\\\":{\\\"cc\\\":{\\\"nv\\\":1},\\\"ur\\\":{\\\"nv\\\":1}}},\\\"like_icon\\\":{\\\"action\\\":\\\"\\\",\\\"action_url\\\":\\\"\\\",\\\"end\\\":\\\"\\\",\\\"end_url\\\":\\\"\\\",\\\"start\\\":\\\"\\\",\\\"start_url\\\":\\\"\\\"}}\", \"origin_user\": { \"info\": { \"uid\": 20165629, \"uname\": \"共青团中央\", \"face\": \"https:\\/\\/i1.hdslb.com\\/bfs\\/face\\/31a4594ba9e39c985e19d37594a794df752bf4b4.jpg\" }, \"card\": { \"official_verify\": { \"type\": 1, \"desc\": \"共青团中央 官方账号\" } }, \"vip\": { \"vipType\": 2, \"vipDueDate\": 1645977600000, \"dueRemark\": \"\", \"accessStatus\": 0, \"vipStatus\": 1, \"vipStatusWarn\": \"\", \"themeType\": 0, \"label\": { \"path\": \"\" } }, \"pendant\": { \"pid\": 0, \"name\": \"\", \"image\": \"\", \"expire\": 0, \"image_enhance\": \"\", \"image_enhance_frame\": \"\" }, \"rank\": \"10000\", \"sign\": \"你好呀！这里皮皮团，等你很久啦！\", \"level_info\": { \"current_level\": 6, \"current_min\": 0, \"current_exp\": 0, \"next_exp\": \"0\" } } }",
+      "extend_json": "{\"from\":{\"emoji_type\":1,\"up_close_comment\":0},\"like_icon\":{\"action\":\"\",\"action_url\":\"\",\"end\":\"\",\"end_url\":\"\",\"start\":\"\",\"start_url\":\"\"}}",
+      "display": {
+        "origin": {
+          "emoji_info": {
+            "emoji_details": [
+              {
+                "emoji_name": "[爱心]",
+                "id": 550,
+                "package_id": 1,
+                "state": 0,
+                "type": 1,
+                "attr": 0,
+                "text": "[爱心]",
+                "url": "https://i0.hdslb.com/bfs/emote/ed04066ea7124106d17ffcaf75600700e5442f5c.png",
+                "meta": {
+                  "size": 1
+                },
+                "mtime": 1597738918
+              }
+            ]
+          },
+          "relation": {
+            "status": 1,
+            "is_follow": 0,
+            "is_followed": 0
+          }
+        },
+        "relation": {
+          "status": 1,
+          "is_follow": 0,
+          "is_followed": 0
+        }
+      }
+    },
+    "result": 0,
+    "_gt_": 0
+  }
+}

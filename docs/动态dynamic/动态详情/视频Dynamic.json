@@ -1,0 +1,138 @@
+{
+  "desc": {
+    "uid": 392819792,
+    "type": 8,
+    "rid": 203592795,
+    "acl": 0,
+    "view": 1509,
+    "repost": 1,
+    "like": 74,
+    "is_liked": 0,
+    "dynamic_id": 478189456739312689,
+    "timestamp": 1610175559,
+    "pre_dy_id": 0,
+    "orig_dy_id": 0,
+    "orig_type": 0,
+    "user_profile": {
+      "info": {
+        "uid": 392819792,
+        "uname": "武汉纺织大学",
+        "face": "https://i2.hdslb.com/bfs/face/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg"
+      },
+      "card": {
+        "official_verify": {
+          "type": 1,
+          "desc": "武汉纺织大学官方账号"
+        }
+      },
+      "vip": {
+        "vipType": 1,
+        "vipDueDate": 1612281600000,
+        "dueRemark": "",
+        "accessStatus": 0,
+        "vipStatus": 0,
+        "vipStatusWarn": "",
+        "themeType": 0,
+        "label": {
+          "path": ""
+        }
+      },
+      "pendant": {
+        "pid": 0,
+        "name": "",
+        "image": "",
+        "expire": 0,
+        "image_enhance": "",
+        "image_enhance_frame": ""
+      },
+      "rank": "10000",
+      "sign": "嗨!! 我是WTU!!  不一样的WTU！WTU IN BILIBILI!",
+      "level_info": {
+        "current_level": 4,
+        "current_min": 0,
+        "current_exp": 0,
+        "next_exp": "0"
+      }
+    },
+    "uid_type": 1,
+    "stype": 0,
+    "r_type": 1,
+    "inner_id": 0,
+    "status": 1,
+    "dynamic_id_str": "478189456739312689",
+    "pre_dy_id_str": "0",
+    "orig_dy_id_str": "0",
+    "rid_str": "203592795",
+    "bvid": "BV18h41127Kr"
+  },
+  "card": "{\"aid\":203592795,\"attribute\":0,\"cid\":280116118,\"copyright\":1,\"ctime\":1610175559,\"desc\":\"武纺在这艰难的一年里发生了很多大事呢，大家一起来看看吧\",\"dimension\":{\"height\":1920,\"rotate\":0,\"width\":1080},\"duration\":45,\"dynamic\":\"快来一键三连啊\",\"jump_url\":\"bilibili:\\/\\/video\\/203592795\\/?page=1&player_preload=null&player_width=1080&player_height=1920&player_rotate=0\",\"owner\":{\"face\":\"https:\\/\\/i2.hdslb.com\\/bfs\\/face\\/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg\",\"mid\":392819792,\"name\":\"武汉纺织大学\"},\"pic\":\"https:\\/\\/i2.hdslb.com\\/bfs\\/archive\\/ed036758fcd22e93c30c84aef42aa8e18afb1082.jpg\",\"player_info\":null,\"pubdate\":1610175559,\"rights\":{\"autoplay\":1,\"bp\":0,\"download\":0,\"elec\":0,\"hd5\":0,\"is_cooperation\":0,\"movie\":0,\"no_background\":0,\"no_reprint\":1,\"pay\":0,\"ugc_pay\":0,\"ugc_pay_preview\":0},\"short_link\":\"https:\\/\\/b23.tv\\/BV18h41127Kr\",\"stat\":{\"aid\":203592795,\"coin\":27,\"danmaku\":0,\"dislike\":0,\"favorite\":6,\"his_rank\":0,\"like\":74,\"now_rank\":0,\"reply\":6,\"share\":1,\"view\":652},\"state\":0,\"tid\":124,\"title\":\"【武汉纺织大学】武纺十大新闻有哪些啊\",\"tname\":\"社科人文\",\"videos\":1}",
+  "extend_json": "{\"\":{\"ogv\":{\"ogv_id\":0}},\"dispute\":{\"content\":\"\"},\"from\":{\"from\":\"\"},\"like_icon\":{\"action\":\"\",\"action_url\":\"\",\"end\":\"\",\"end_url\":\"\",\"start\":\"\",\"start_url\":\"\"},\"topic\":{\"is_attach_topic\":1}}",
+  "extra": {
+    "is_space_top": 0
+  },
+  "activity_infos": {
+    "details": [
+      {
+        "type": 1,
+        "detail": "{\"is_show\":1,\"topic_id\":10511051,\"topic_link\":\"\",\"topic_name\":\"打卡挑战\"}"
+      }
+    ]
+  },
+  "display": {
+    "topic_info": {
+      "topic_details": [
+        {
+          "topic_id": 10511051,
+          "topic_name": "打卡挑战",
+          "is_activity": 1,
+          "topic_link": ""
+        },
+        {
+          "topic_id": 1433935,
+          "topic_name": "武汉纺织大学",
+          "is_activity": 0,
+          "topic_link": ""
+        },
+        {
+          "topic_id": 34356,
+          "topic_name": "大学生",
+          "is_activity": 0,
+          "topic_link": ""
+        },
+        {
+          "topic_id": 3408,
+          "topic_name": "新闻",
+          "is_activity": 0,
+          "topic_link": ""
+        },
+        {
+          "topic_id": 16249802,
+          "topic_name": "加油！开学季",
+          "is_activity": 0,
+          "topic_link": ""
+        }
+      ]
+    },
+    "usr_action_txt": "投稿了视频",
+    "relation": {
+      "status": 1,
+      "is_follow": 0,
+      "is_followed": 0
+    },
+    "tags": [
+      {
+        "tag_type": 3,
+        "sub_type": 1,
+        "icon": "https://i0.hdslb.com/bfs/album/4c1880a3e9d5fd2c72b339929a73a4b83d2bab93.png",
+        "text": "打卡挑战",
+        "link": "",
+        "rid": 10511051,
+        "sub_module": "topic"
+      }
+    ],
+    "show_tip": {
+      "del_tip": "要删除动态吗？"
+    },
+    "cover_play_icon_url": "https://i0.hdslb.com/bfs/album/2269afa7897830b397797ebe5f032b899b405c67.png"
+  }
+}

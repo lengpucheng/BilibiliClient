@@ -1,0 +1,60 @@
+{
+  "user": {
+    "uid": 392819792,
+    "uname": "武汉纺织大学",
+    "face": "https:\/\/i2.hdslb.com\/bfs\/face\/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg"
+  },
+  "item": {
+    "rp_id": 484920426407334139,
+    "uid": 392819792,
+    "content": "致敬！\n谨遵教诲",
+    "orig_dy_id": 484828823340195444,
+    "pre_dy_id": 484828823340195444,
+    "timestamp": 1611742735,
+    "reply": 0,
+    "orig_type": 2
+  },
+  "origin": "{\"item\":{\"id\":109011544,\"title\":\"\",\"description\":\"【今天，宋庆龄诞辰128年，缅怀[爱心]】她，一生为“和平、奋斗、救中国”无私奉献。她曾说，“青年是革命的柱石。青年是革命果实的保卫者，是使历史加速向更美好的世界前进的力量。”致敬！ ​​​\",\"category\":\"daily\",\"role\":[],\"source\":[],\"pictures\":[{\"img_src\":\"https:\/\/i0.hdslb.com\/bfs\/album\/a999f3c1ca10aa9d498fee645ec768cd59bc9ac0.jpg\",\"img_width\":1080,\"img_height\":1620,\"img_size\":511.5,\"img_tags\":null}],\"pictures_count\":1,\"upload_time\":1611721407,\"at_control\":\"\",\"reply\":889,\"settings\":{\"copy_forbidden\":\"0\"},\"is_fav\":0},\"user\":{\"uid\":20165629,\"head_url\":\"https:\/\/i1.hdslb.com\/bfs\/face\/31a4594ba9e39c985e19d37594a794df752bf4b4.jpg\",\"name\":\"共青团中央\",\"vip\":{\"type\":2,\"status\":1,\"due_date\":1645977600000,\"vip_pay_type\":0,\"theme_type\":0,\"label\":{\"path\":\"\",\"text\":\"年度大会员\",\"label_theme\":\"annual_vip\"},\"avatar_subscript\":1,\"nickname_color\":\"#FB7299\"}}}",
+  "origin_extend_json": "{\"from\":{\"emoji_type\":1,\"from\":\"\",\"up_close_comment\":0,\"verify\":{\"cc\":{\"nv\":1},\"ur\":{\"nv\":1}}},\"like_icon\":{\"action\":\"\",\"action_url\":\"\",\"end\":\"\",\"end_url\":\"\",\"start\":\"\",\"start_url\":\"\"}}",
+  "origin_user": {
+    "info": {
+      "uid": 20165629,
+      "uname": "共青团中央",
+      "face": "https:\/\/i1.hdslb.com\/bfs\/face\/31a4594ba9e39c985e19d37594a794df752bf4b4.jpg"
+    },
+    "card": {
+      "official_verify": {
+        "type": 1,
+        "desc": "共青团中央 官方账号"
+      }
+    },
+    "vip": {
+      "vipType": 2,
+      "vipDueDate": 1645977600000,
+      "dueRemark": "",
+      "accessStatus": 0,
+      "vipStatus": 1,
+      "vipStatusWarn": "",
+      "themeType": 0,
+      "label": {
+        "path": ""
+      }
+    },
+    "pendant": {
+      "pid": 0,
+      "name": "",
+      "image": "",
+      "expire": 0,
+      "image_enhance": "",
+      "image_enhance_frame": ""
+    },
+    "rank": "10000",
+    "sign": "你好呀！这里皮皮团，等你很久啦！",
+    "level_info": {
+      "current_level": 6,
+      "current_min": 0,
+      "current_exp": 0,
+      "next_exp": "0"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "bvid": "BV1Uh411X7Fb",
+    "aid": 202239051,
+    "videos": 1,
+    "tid": 21,
+    "tname": "日常",
+    "copyright": 1,
+    "pic": "http://i2.hdslb.com/bfs/archive/eeeb7119fa42ae13565f7ce717f78c0487ca8726.jpg",
+    "title": "【武汉纺织大学】你 要 在 纺 大 跳 舞 吗～",
+    "pubdate": 1600621873,
+    "ctime": 1600621873,
+    "desc": "纺大版抖腿舞现已上线，快跟随节奏抖动起来吧！\n\n歌曲：新裤子乐队——《你要跳舞吗》\n\n舞蹈参考：语荞hathaway\nhttps://b23.tv/ryN43w\n\n出演人员: POB动漫社(阿江、春山、元智、青绫、水水、小妖)\n\n拍摄/剪辑:武汉纺织大学广播电视台摄制部（王恒、马兴怡、陈祎明）",
+    "state": 0,
+    "duration": 187,
+    "rights": {
+      "bp": 0,
+      "elec": 0,
+      "download": 1,
+      "movie": 0,
+      "pay": 0,
+      "hd5": 1,
+      "no_reprint": 1,
+      "autoplay": 1,
+      "ugc_pay": 0,
+      "is_cooperation": 0,
+      "ugc_pay_preview": 0,
+      "no_background": 0,
+      "clean_mode": 0,
+      "is_stein_gate": 0
+    },
+    "owner": {
+      "mid": 392819792,
+      "name": "武汉纺织大学",
+      "face": "http://i2.hdslb.com/bfs/face/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg"
+    },
+    "stat": {
+      "aid": 202239051,
+      "view": 6872,
+      "danmaku": 23,
+      "reply": 80,
+      "favorite": 52,
+      "coin": 182,
+      "share": 90,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 347,
+      "dislike": 0,
+      "evaluation": "",
+      "argue_msg": ""
+    },
+    "dynamic": "#武汉纺织大学##加油！开学季##你要跳舞吗##新裤子#嘻嘻！一起来看漂亮姐姐们跳舞呀～(*≧▽≦)ﾉｼ))",
+    "cid": 237377194,
+    "dimension": {
+      "width": 3840,
+      "height": 2160,
+      "rotate": 0
+    },
+    "no_cache": false,
+    "pages": [
+      {
+        "cid": 237377194,
+        "page": 1,
+        "from": "vupload",
+        "part": "【武汉纺织大学】你 要 在 纺 大 跳 舞 吗～",
+        "duration": 187,
+        "vid": "",
+        "weblink": "",
+        "dimension": {
+          "width": 3840,
+          "height": 2160,
+          "rotate": 0
+        }
+      }
+    ],
+    "subtitle": {
+      "allow_submit": false,
+      "list": []
+    },
+    "user_garb": {
+      "url_image_ani_cut": ""
+    }
+  }
+}

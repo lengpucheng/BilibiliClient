@@ -1,0 +1,72 @@
+{
+  "mid": 392819792,
+  "name": "武汉纺织大学",
+  "sex": "男",
+  "face": "http://i2.hdslb.com/bfs/face/b1119b1d6f0b77a5e3d9ff39cddd2de5474dfad0.jpg",
+  "sign": "嗨!! 我是WTU!!  不一样的WTU！WTU IN BILIBILI!",
+  "rank": 10000,
+  "level": 4,
+  "jointime": 0,
+  "moral": 0,
+  "silence": 0,
+  "birthday": "10-18",
+  "coins": 0,
+  "fans_badge": true,
+  "official": {
+    "role": 6,
+    "title": "武汉纺织大学官方账号",
+    "desc": "",
+    "type": 1
+  },
+  "vip": {
+    "type": 1,
+    "status": 0,
+    "theme_type": 0,
+    "label": {
+      "path": "",
+      "text": "",
+      "label_theme": ""
+    },
+    "avatar_subscript": 0,
+    "nickname_color": ""
+  },
+  "pendant": {
+    "pid": 0,
+    "name": "",
+    "image": "",
+    "expire": 0,
+    "image_enhance": "",
+    "image_enhance_frame": ""
+  },
+  "nameplate": {
+    "nid": 0,
+    "name": "",
+    "image": "",
+    "image_small": "",
+    "level": "",
+    "condition": ""
+  },
+  "is_followed": false,
+  "top_photo": "http://i1.hdslb.com/bfs/space/6e799ff2de2de55d27796707a283068d66cdf3f4.png",
+  "theme": {},
+  "sys_notice": {
+    "id": 20,
+    "content": "请允许我们在此献上最后的告别，以此纪念其在哔哩哔哩留下的回忆与足迹。请点此查看纪念账号相关说明\u003e",
+    "url": "https://www.bilibili.com/blackboard/help.html#/?qid=fb37c62ca61f4f10b8d17f3dc9051603",
+    "notice_type": 2,
+    "icon": "https://i0.hdslb.com/bfs/space/ca6d0ed2edae23cf348db19cd2c293f2121c1b59.png",
+    "text_color": "#999999",
+    "bg_color": "#e7e7e7"
+  },
+  "live_room": {
+    "roomStatus": 1,
+    "liveStatus": 0,
+    "url": "https://live.bilibili.com/21566872",
+    "title": "直播纺大",
+    "cover": "http://i0.hdslb.com/bfs/live/new_room_cover/eb85739963d59e2f5f60646ff5ef0769d619ce55.jpg",
+    "online": 237,
+    "roomid": 21566872,
+    "roundStatus": 0,
+    "broadcast_type": 0
+  }
+}
