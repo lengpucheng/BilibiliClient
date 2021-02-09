@@ -32,7 +32,8 @@ public class BiliRequest {
     /**
      * 使用 client 构建
      *
-     * @param client baseClient
+     * @param client  baseClient
+     * @param version 版本
      */
     public BiliRequest(BaseClient client, String version) {
         this.baseClient = client;
@@ -53,7 +54,7 @@ public class BiliRequest {
 
     /**
      * 设置host
-     *
+     * @param host  设置 host
      * @return this
      */
     public BiliRequest setHost(String host) {
