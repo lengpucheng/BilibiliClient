@@ -4,10 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.hll520.linling.client</groupId>
+    <groupId>cn.hll520.linclient</groupId>
     <artifactId>BilibiliClient</artifactId>
-    <version>1.0.1</version>
-    <description>哔哩哔哩Client</description>
+    <version>1.0.2</version>
+    <name>BilibiliClient</name>
+    <description>Bilibili Java API Interface</description>
 
     <!-- 开发者信息 -->
     <developers>
@@ -37,8 +38,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <!--plugin-->
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
     </properties>
 
     <dependencies>
@@ -76,42 +75,35 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>maven-linling</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>maven-linling</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
-
     <build>
         <plugins>
-            <!-- 源码打包 -->
+            <!-- 打包同时打包源码 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.2.0</version>
+                <configuration>
+                    <attach>true</attach>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>attach-sources</id>
+                        <phase>compile</phase>
                         <goals>
-                            <goal>jar-no-fork</goal>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
-            <!-- JavaDoc -->
+            <!-- JAVA DOC -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.2.0</version>
+                <configuration>
+                    <doclint>none</doclint>
+                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -121,21 +113,65 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
+
+    <!-- 发布配置 -->
+    <profiles>
+        <profile>
+            <id>release</id>
+            <!--发布到maven仓库-->
+            <distributionManagement>
+                <repository>
+                    <id>maven-linling</id>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+                <snapshotRepository>
+                    <id>maven-linling</id>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+                </snapshotRepository>
+            </distributionManagement>
+            <build>
+                <plugins>
+                    <!-- 源码 -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>release</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>snapshot</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- gpg 加密 -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>release</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
 </project>
