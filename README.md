@@ -4,7 +4,7 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 
 # 使用方法
 
-（以目前版本为例 1.0-Release)
+（以目前版本为例 1.0.1)
 
 ## 1、引入
 
@@ -13,10 +13,9 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 推荐使用Maven或其他包管理工具引入(见MavenSearch)
 
 ```xml
-
-<groupId>cn.hll520.linlingClient</groupId>
+<groupId>cn.hll520.linling.client</groupId>
 <artifactId>BilibiliClient</artifactId>
-<version>1.0-Release</version>
+<version>1.0.1</version>
 ```
 
 ## 2、配置
@@ -25,20 +24,20 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 
 ```java
 public class Config {
-  public static void main(String[] args) {
-    // 协议
-    BaseClientConfig.setProtocol(String protocol);
-    // 服务host
-    BaseClientConfig.setHost(String host);
-    // 服务host Vc
-    BaseClientConfig.setHostVc(String hostVc);
-    // 配置端口
-    BaseClientConfig.setPort(Integer port);
-    // 配置请求
-    BaseClientConfig.setRequestConfig(RequestConfig config);
+    public static void main(String[] args) {
+        // 协议
+        BaseClientConfig.setProtocol(String protocol);
+        // 服务host
+        BaseClientConfig.setHost(String host);
+        // 服务host Vc
+        BaseClientConfig.setHostVc(String hostVc);
+        // 配置端口
+        BaseClientConfig.setPort(Integer port);
+        // 配置请求
+        BaseClientConfig.setRequestConfig(RequestConfig config);
 
-    // 配置仅对 之后 执行的请求有效 且会 更改 之后的全部全局配置
-  }
+        // 配置仅对 之后 执行的请求有效 且会 更改 之后的全部全局配置
+    }
 }
 ```
 
