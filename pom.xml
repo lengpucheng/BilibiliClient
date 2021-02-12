@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.hll520.linclient</groupId>
         <artifactId>LinlingClient</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <!-- 项目坐标 -->
