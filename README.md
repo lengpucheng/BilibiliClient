@@ -4,7 +4,7 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 
 # 使用方法
 
-（以目前版本为例 1.0.1)
+（以目前版本为例 1.0.2)
 
 ## 1、引入
 
@@ -15,7 +15,7 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 ```xml
 <groupId>cn.hll520.linling.client</groupId>
 <artifactId>BilibiliClient</artifactId>
-<version>1.0.1</version>
+<version>1.0.2</version>
 ```
 
 ## 2、配置
