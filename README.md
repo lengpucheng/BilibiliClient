@@ -13,11 +13,12 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 推荐使用Maven或其他包管理工具引入(见MavenSearch)
 
 ```xml
- <dependency>
-  <groupId>cn.hll520.linclient</groupId>
-  <artifactId>BilibiliClient</artifactId>
-  <version>1.0.2</version>
-  <dependency>
+
+<dependency>
+    <groupId>cn.hll520.linclient</groupId>
+    <artifactId>BilibiliClient</artifactId>
+    <version>1.0.2</version>
+<dependency>
 ```
 
 ## 2、配置
@@ -70,17 +71,17 @@ public class Test {
 # 目前支持
 
 + `Dynamic 动态` [动态文档](docs/动态dynamic/Dynamic.md)
-  + 根据动态ID获取动态数据
-  + 根据用户ID获取用户动态列表(目前支持普通动态、视频动态、转发动态)
+    + 根据动态ID获取动态数据
+    + 根据用户ID获取用户动态列表(目前支持普通动态、视频动态、转发动态)
 + `User 用户相关` [用户文档](docs/用户user/User.md)
-  + 根据用户ID获取用户详情
-  + 获取当前登录用户信息
+    + 根据用户ID获取用户详情
+    + 获取当前登录用户信息
 + `Relation 用户关系` [关系文档](docs/关系relation/Relation.md)
-  + 根据用户ID获取用户粉丝详情
-  + 根据用户ID获取用户关注详情
+    + 根据用户ID获取用户粉丝详情
+    + 根据用户ID获取用户关注详情
 + `Video 视频相关` [视频文档](docs/视频video/Video.md)
-  + 根据AV获取视频信息
-  + 根据BV获取视频信息
+    + 根据AV获取视频信息
+    + 根据BV获取视频信息
 
 + `DynamicTools` 包含一些静态方法**对动态进行分类和数据整理**
 
