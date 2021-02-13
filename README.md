@@ -13,11 +13,11 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 推荐使用Maven或其他包管理工具引入(见MavenSearch)
 
 ```xml
-<parent>
+ <dependency>
   <groupId>cn.hll520.linclient</groupId>
   <artifactId>BilibiliClient</artifactId>
   <version>1.0.2</version>
-</parent>
+  <dependency>
 ```
 
 ## 2、配置
