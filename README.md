@@ -68,6 +68,8 @@ public class Test {
 
 **其他使用方法请参考单元测试类**
 
+**使用参考文档: [IDEA JAVA使用BilibiliClient抓取哔哩哔哩用户动态等数据信息](https://blog.csdn.net/XiaoYunKuaiFei/article/details/113802710)**
+
 # 目前支持
 
 + `Dynamic 动态` [动态文档](docs/动态dynamic/Dynamic.md)
