@@ -15,7 +15,7 @@ BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完
 ```xml
 <parent>
   <groupId>cn.hll520.linclient</groupId>
-  <artifactId>LinlingClient</artifactId>
+  <artifactId>BilibiliClient</artifactId>
   <version>1.0.2</version>
 </parent>
 ```
