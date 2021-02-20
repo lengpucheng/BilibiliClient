@@ -21,12 +21,15 @@ public class IDynamicConditionTest {
     public void withDynamicIdForward() {
         Dynamic dynamic = biliClient.dynamic().withDynamicId(484920426409631452L).get();
         System.out.println(dynamic);
+        System.out.println(dynamic.getData().createTime());
     }
 
     @Test
     public void withDynamicId() {
         Dynamic dynamic = biliClient.dynamic().withDynamicId(485425544628969967L).get();
         System.out.println(dynamic);
+        System.out.println(dynamic.getData().createTime());
+        System.out.println(dynamic.getData().updateTime());
     }
 
     @Test

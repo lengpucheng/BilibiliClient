@@ -12,7 +12,7 @@
 
     <!-- 项目坐标 -->
     <artifactId>BilibiliClient</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.4-bate</version>
     <name>BilibiliClient</name>
     <description>Bilibili Java API Interface</description>
 

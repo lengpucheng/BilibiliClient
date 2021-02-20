@@ -1,8 +1,11 @@
 package cn.hll520.linling.biliClient.model.video;
 
+import cn.hll520.linling.biliClient.model.BaseModel;
 import cn.hll520.linling.biliClient.model.user.User;
+import cn.hll520.linling.biliClient.utils.TransDate;
 import lombok.Data;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -13,7 +16,7 @@ import java.util.List;
  * @since 2021-02-08-18:37
  */
 @Data
-public class Video {
+public class Video implements BaseModel {
     /**
      * bv
      */
@@ -189,4 +192,9 @@ public class Video {
      * }}</p>
      */
     private Object user_garb;
+
+    @Override
+    public Date createTime() {
+        return TransDate.timestampToDate(this.ctime);
+    }
 }

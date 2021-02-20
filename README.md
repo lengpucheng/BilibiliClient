@@ -2,6 +2,10 @@
 
 BilibiliClient —— 基于HttpClient 的 哔哩哔哩 API ,根据JSON反向完成的BiliBili Java 包 **将会持续更新**
 
+# 最近更新
+
+2021/2/20 添加对象公共方法 creatTime和updateTime 对时间进行转换
+
 # 使用方法
 
 （以目前版本为例 1.0.2)

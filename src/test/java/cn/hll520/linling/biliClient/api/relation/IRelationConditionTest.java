@@ -5,8 +5,6 @@ import cn.hll520.linling.biliClient.BiliClientFactor;
 import cn.hll520.linling.biliClient.model.relation.Relation;
 import org.junit.Test;
 
-import java.util.Date;
-
 /**
  * 描述：
  *
@@ -23,6 +21,7 @@ public class IRelationConditionTest {
         Relation list = biliClient.relation().toFollowers(392819792L).list();
         System.out.println(list.getTotal());
         System.out.println(list.getItems().get(0).getUname());
+        System.out.println(list.getItems().get(0).createTime());
     }
 
     @Test
@@ -31,7 +30,7 @@ public class IRelationConditionTest {
         System.out.println(list.getTotal());
         System.out.println(list.getItems().size());
         System.out.println(list.getItems().get(0).getUname());
-        System.out.println(new Date(list.getItems().get(0).getMtime()));
+        System.out.println(list.getItems().get(0).createTime());
 
     }
 }

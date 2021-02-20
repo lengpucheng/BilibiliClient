@@ -1,6 +1,10 @@
 package cn.hll520.linling.biliClient.model.dynamic;
 
+import cn.hll520.linling.biliClient.model.BaseModel;
+import cn.hll520.linling.biliClient.utils.TransDate;
 import lombok.Data;
+
+import java.util.Date;
 
 /**
  * 描述： 动态 数据
@@ -10,7 +14,7 @@ import lombok.Data;
  * @since 2021-02-07-21:06
  */
 @Data
-public class DynamicData {
+public class DynamicData implements BaseModel {
     /**
      * 动态类型
      */
@@ -63,4 +67,9 @@ public class DynamicData {
      * <p>仅仅视频动态存在 其余为null or empty</p>
      */
     private String bvid;
+
+    @Override
+    public Date createTime() {
+        return TransDate.timestampToDate(this.timestamp);
+    }
 }

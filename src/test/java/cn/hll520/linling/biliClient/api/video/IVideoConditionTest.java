@@ -19,12 +19,15 @@ public class IVideoConditionTest {
     public void withAvid() {
         Video video = biliClient.video().withAvid(12306L).get();
         System.out.println(video);
+        System.out.println(video.createTime());
     }
 
     @Test
     public void withBvid() {
         Video video = biliClient.video().withBvid("BV1Zx411A7Q9").get();
         System.out.println(video);
+        System.out.println(video.createTime());
+        System.out.println(video.updateTime());
 
     }
 }
