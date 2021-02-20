@@ -7,12 +7,12 @@
     <parent>
         <groupId>cn.hll520.linclient</groupId>
         <artifactId>LinlingClient</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.5-bate</version>
     </parent>
 
     <!-- 项目坐标 -->
     <artifactId>BilibiliClient</artifactId>
-    <version>1.0.4-bate</version>
+    <version>1.0.5-bate</version>
     <name>BilibiliClient</name>
     <description>Bilibili Java API Interface</description>
 
